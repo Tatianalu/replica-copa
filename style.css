@@ -102,3 +102,13 @@ a{
     font-size: 25px;
 }  
 
+#medios-pago{
+    display: flex;
+    background-color: #ffffff52;
+}
+
+#medios-pago > img{
+    width: 80px;
+    height: 80px;
+
+}
