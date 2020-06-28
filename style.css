@@ -1,3 +1,104 @@
-section{
-    font-family: 'Open Sans Condensed', sans-serif;
+*{
+    font-family: 'Amatic SC', cursive;
+    margin: 0px;
+    
 }
+.container{
+    display: flex;
+}
+.hijo{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+[data-type="1"]{
+    font-size: 87px;
+    color: #ffc400;
+}
+[data-type="2"]{
+    font-size: 48px;
+    color: #810099;
+}
+[data-type="3"]{
+    font-size: 70px;
+    color: #ff9400;
+}
+[data-type="4"]{
+    font-size: 37px;
+    color: #00cc17;
+}
+[data-type="5"]{
+    font-size: 57px;
+    color: #3a33ff;
+}
+[data-type="6"]{
+    font-size: 30px;
+    color: #3fb0ac;
+}
+[data-type="7"]{
+    font-size: 31px;
+    color: #b56969;
+}
+[data-type="8"]{
+    font-size: 39px;
+    color: #dbe9d8;
+}
+[data-type="9"]{
+    font-size: 37px;
+    color: #cdd422;
+}
+[data-type="10"]{
+    font-size: 42px;
+    color: #a08b54;
+}
+[data-type="11"]{
+    font-size: 29px;
+    color: #677077;
+}
+[data-type="12"]{
+    font-size: 36px;
+    color: #9900ff;
+}
+[data-type="13"]{
+    font-size: 90px;
+    color: #e05915;
+}
+
+/*Queremos que la copa que te lleves:*/
+.wave{
+    height: 24px;
+    background: url(imagen/wave.png);
+    position: relative;
+    bottom: -24px;
+
+}
+#want-to{
+    color: #16265d;
+    background-color: #ffe076;
+    border-bottom: 10px solid orange;
+    text-align: center;
+}
+#want-to > p {
+    padding: 15px;
+    font-size: 90px;
+    
+}
+
+.container-hijo{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container-hijo > p > span{
+    font-size: 40px;
+}
+
+.container-hijo > p{
+    font-size: 25px;
+}  
+
