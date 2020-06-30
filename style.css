@@ -8,8 +8,7 @@
 }
 .hijo{
     padding: 10px;
-    margin: 10px;
-    width: 100%;
+    margin: 10px;   
 }
 a{
     text-decoration: none;
@@ -66,7 +65,40 @@ a{
     font-size: 90px;
     color: #e05915;
 }
+/*Medios de pago*/
+#mediospago{
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Cabin Sketch', cursive;
+    background-color: #000000de;
+    color: #ffff;   
+}
+#mediospago > div{
+    width: 40%;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
 
+#medios-pago{
+    display: flex;
+    background-color: #ffffff52;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+#medios-pago > img{
+    width: 80px;
+    height: 80px;
+
+}
+
+#mediospago:last-child{
+    width: 50%;
+}
 /*Queremos que la copa que te lleves:*/
 .wave{
     height: 24px;
@@ -102,13 +134,23 @@ a{
     font-size: 25px;
 }  
 
-#medios-pago{
-    display: flex;
-    background-color: #ffffff52;
+h4{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+/*Benner Copa:*/
+.imgbanner{
+    width: 200px;
 }
 
-#medios-pago > img{
-    width: 80px;
-    height: 80px;
-
+/*Videos*/
+#videos{
+    display: flex;
+}
+#videos > div{
+    background-color: blueviolet;
+    width: 450px;
+    height: 300px;
+    margin: 20px;
 }
