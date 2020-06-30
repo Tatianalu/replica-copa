@@ -149,8 +149,5 @@ h4{
     display: flex;
 }
 #videos > div{
-    background-color: blueviolet;
-    width: 450px;
-    height: 300px;
     margin: 20px;
 }
